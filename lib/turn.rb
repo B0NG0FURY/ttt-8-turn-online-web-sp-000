@@ -37,5 +37,8 @@ def turn
   if valid_move(board, index) == true
     move(board, index)
     display_board(board)
+  else
+    puts "That is not a valid move"
+    turn
   end
 end
