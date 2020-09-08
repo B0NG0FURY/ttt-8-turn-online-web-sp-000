@@ -39,6 +39,6 @@ def turn(board)
     display_board(board)
   else
     puts "That is not a valid move"
-    turn
+    turn(board)
   end
 end
